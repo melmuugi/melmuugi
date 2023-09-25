@@ -6,6 +6,7 @@ import {
     AiOutlineInstagram,
     AiOutlineYoutube,
     AiOutlinePhone,
+    AiOutlineMail,
   } from "react-icons/ai"
 
 
@@ -19,6 +20,11 @@ const ContactSection = () => {
           <SlideUp offset="-300px 0px -300px 0px">
           <div className="flex flex-col justify-between justify-center items-center animate-slideUpCubiBezier animation-delay-6 my-12 pb-12 md:pt-16 md:pb-25">
             <div className="border-3 w-full max-w-2xl space-y-8 p-8 rounded-lg shadow-lg">
+            <div className="flex flex-row items-center justify-center space-x-1 mb-1 text-xl">
+            <AiOutlineMail className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}/>
+              <span> info@muugidesign.co.ke</span>
+            </div>
             <div className="flex flex-row items-center justify-center space-x-1 mb-1 text-xl">    
             <AiOutlinePhone className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}/>

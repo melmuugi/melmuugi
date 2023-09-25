@@ -3,7 +3,7 @@ import SlideUp from "./SlideUp"
 import {
     AiOutlineGithub,
     AiOutlineTwitter,
-    AiOutlineLinkedin,
+    AiOutlineInstagram,
     AiOutlineYoutube,
     AiOutlinePhone,
   } from "react-icons/ai"
@@ -32,7 +32,7 @@ const ContactSection = () => {
             />
           </a>
           <a
-            href="https://twitter.com/melmuugi"
+            href="https://twitter.com/muugidesign"
             rel="noreferrer"
             target="_blank"
           >
@@ -43,11 +43,11 @@ const ContactSection = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/melmuugi/"
+            href="https://www.instagram.com/muugidesign/"
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineLinkedin
+            <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

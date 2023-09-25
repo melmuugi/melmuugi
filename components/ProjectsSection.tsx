@@ -10,8 +10,8 @@ const projects = [
     description:
       "This is my portfolio site. I created it using Next JS and tailwind CSS.",
     image: "/portfolio.jpg",
-    github: "https://github.com/melmuugi/melmuugi.github.io",
-    link: "https://melmuugi.github.io/",
+    github: "https://github.com/melmuugi/melmuugi",
+    link: "https://muugidesign.co.ke/",
   },
   {
     name: "Charmaine's Coiffure",
